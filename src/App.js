@@ -19,7 +19,7 @@ function App() {
   const [err, setErrRoute] = useState(false);
 
   useEffect(() => {
-    console.log(window.location.href, 'window . get . location');
+    console.log(window.location.href, 'window . gets . location');
 
     if (window.location.href === 'http://localhost:8000/join')
       console.log(window.location.href, 'working fsdfsdfsdfsd');
